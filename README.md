@@ -1,14 +1,17 @@
 <div align="center">
-	<h3>spacetime-geo</h3>
-	<a href="https://npmjs.org/package/spacetime-geo">
-		<img src="https://img.shields.io/npm/v/spacetime-geo.svg?style=flat-square" />
-	</a>
-  <!-- <a href="https://www.codacy.com/app/spencerkelly86/sunday-driver">
-    <img src="https://api.codacy.com/project/badge/grade/1b0f3874f43f4b8c87ac855bb69bca8f" />
-  </a> -->
-	<div>`npm i spacetime-geo`</div>
+  <img src="https://cloud.githubusercontent.com/assets/399657/23590290/ede73772-01aa-11e7-8915-181ef21027bc.png" />
+  <div>lat/long → timezone</div>
+  <a href="https://npmjs.org/package/spacetime-geo">
+    <img src="https://img.shields.io/npm/v/spacetime-geo.svg?style=flat-square" />
+  </a>
+  <a href="https://nodejs.org/api/documentation.html#documentation_stability_index">
+    <img src="https://img.shields.io/badge/stability-stable-green.svg?style=flat-square" />
+  </a>
 </div>
-<p></p>
+
+<div align="center">
+  <code>npm install spacetime-geo</code>
+</div>
 
 [spacetime](https://github.com/spencermountain/spacetime) plugin for determining a timezone based on a point on the earth.
 

@@ -1,6 +1,6 @@
 {
   "name": "spacetime-geo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "determine a timezone from a lat/lng",
   "main": "./src/index",
   "scripts": {
@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/spencermountain/spacetime-geo#readme",
   "dependencies": {
-    "tap-dancer": "0.0.3",
-    "tape": "^4.9.1",
     "tz-lookup": "^6.1.8"
   },
   "devDependencies": {
+    "tap-dancer": "0.0.3",
+    "tape": "^4.9.1",
     "amble": "0.0.6",
     "spacetime": "^4.2.2"
   }
