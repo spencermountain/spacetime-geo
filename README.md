@@ -1,20 +1,19 @@
-<!-- <div align="center">
-	<h3>sunday-driver</h3>
-	<a href="https://npmjs.org/package/spacetime">
-		<img src="https://img.shields.io/npm/v/sunday-driver.svg?style=flat-square" />
+<div align="center">
+	<h3>spacetime-geo</h3>
+	<a href="https://npmjs.org/package/spacetime-geo">
+		<img src="https://img.shields.io/npm/v/spacetime-geo.svg?style=flat-square" />
 	</a>
-  <a href="https://www.codacy.com/app/spencerkelly86/sunday-driver">
+  <!-- <a href="https://www.codacy.com/app/spencerkelly86/sunday-driver">
     <img src="https://api.codacy.com/project/badge/grade/1b0f3874f43f4b8c87ac855bb69bca8f" />
-  </a>
-	<div></div>
+  </a> -->
+	<div>`npm i spacetime-geo`</div>
 </div>
-<p></p> -->
+<p></p>
 
 [spacetime](https://github.com/spencermountain/spacetime) plugin for determining a timezone based on a point on the earth.
 
 this is really just a wrapper of [tz-lookup](https://github.com/darkskyapp/tz-lookup/) by dark-sky - based on [Evan Siroky's](http://www.evansiroky.com/) awesome [boundary-builder](https://github.com/evansiroky/timezone-boundary-builder/) work.
 
-`npm i spacetime-geo`
 
 ```js
 const spacetime = require('./src/index')
@@ -42,6 +41,8 @@ spacetime.now().in('48.7235, 1.9931')
 
 ### Caveats:
 [timezone boundaries](https://github.com/evansiroky/timezone-boundary-builder/) are very, very detailed things. In order to keep this library small, we've [simplified](http://mourner.github.io/simplify-js/) the paths. This may produce some off-by-one errors, close to the boundaries, especially for jagged coasts, or complex political boundaries.
+
+![1091](https://user-images.githubusercontent.com/399657/41735400-9279263a-7557-11e8-9c57-6f993e410e00.png)
 
 You can always produce a more-detailed, and larger (<=130mb!) dataset using Evan Siroky's [script](https://github.com/evansiroky/timezone-boundary-builder/).
 
