@@ -1,0 +1,32 @@
+{
+  "name": "spacetime-geo",
+  "version": "0.0.1",
+  "description": "determine a timezone from a lat/lng",
+  "main": "./src/index",
+  "scripts": {
+    "watch": "amble ./scratch.js",
+    "test": "\"node_modules/.bin/tape\" \"./tests/*.test.js\" | \"node_modules/.bin/tap-dancer\" --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencermountain/spacetime-geo.git"
+  },
+  "keywords": [
+    "timezone"
+  ],
+  "author": "spencermountain@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spencermountain/spacetime-geo/issues"
+  },
+  "homepage": "https://github.com/spencermountain/spacetime-geo#readme",
+  "dependencies": {
+    "tap-dancer": "0.0.3",
+    "tape": "^4.9.1",
+    "tz-lookup": "^6.1.8"
+  },
+  "devDependencies": {
+    "amble": "0.0.6",
+    "spacetime": "^4.2.2"
+  }
+}
