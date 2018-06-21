@@ -1,11 +1,12 @@
 {
   "name": "spacetime-geo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "determine a timezone from a lat/lng",
-  "main": "./src/index",
+  "main": "./builds/spacetime-geo.js",
   "scripts": {
     "watch": "amble ./scratch.js",
-    "test": "\"node_modules/.bin/tape\" \"./tests/*.test.js\" | \"node_modules/.bin/tap-dancer\" --color"
+    "test": "\"node_modules/.bin/tape\" \"./tests/*.test.js\" | \"node_modules/.bin/tap-dancer\" --color",
+    "build": "node ./scripts/build.js"
   },
   "repository": {
     "type": "git",
@@ -24,9 +25,15 @@
     "tz-lookup": "^6.1.8"
   },
   "devDependencies": {
-    "tap-dancer": "0.0.3",
-    "tape": "^4.9.1",
     "amble": "0.0.6",
-    "spacetime": "^4.2.2"
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "derequire": "^2.0.6",
+    "shelljs": "^0.8.2",
+    "spacetime": "^4.2.2",
+    "tap-dancer": "0.0.3",
+    "tape": "^4.9.1"
   }
 }

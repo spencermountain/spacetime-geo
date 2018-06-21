@@ -1,6 +1,7 @@
 let test = require('tape')
 const spacetime = require('spacetime')
 const geo = require('../src')
+// const geo = require('../builds/spacetime-geo')
 
 test('test some lat/lngs', function(t) {
   spacetime.extend(geo)

@@ -1,4 +1,5 @@
-const geo = require('./src/index')
+// const geo = require('./src/index')
+const geo = require('./builds/spacetime-geo')
 const spacetime = require('spacetime')
 spacetime.extend(geo)
 
