@@ -18,11 +18,14 @@ if (!String.prototype.trim) {
 }
 
 module.exports = {
-  in: function(geo) {
+  in: function(geo, b) {
     let lat = null
     let lng = null
     //accept weird formats
-    if (isArray(geo) === true) {
+    if (typeof b === 'number' && typeof geo === 'number') {
+      lat = geo
+      lng = b
+    } else if (isArray(geo) === true) {
       lat = geo[0]
       lng = geo[1]
     } else if (isString(geo) === true) {

@@ -1,4 +1,4 @@
-/* spacetime-geo v1.0.0
+/* spacetime-geo v1.0.1
    github.com/spencermountain/spacetime-geo
    MIT
 */
@@ -29,11 +29,14 @@ if (!String.prototype.trim) {
 }
 
 module.exports = {
-  in: function _in(geo) {
+  in: function _in(geo, b) {
     var lat = null;
     var lng = null;
     //accept weird formats
-    if (isArray(geo) === true) {
+    if (typeof b === 'number' && typeof geo === 'number') {
+      lat = geo;
+      lng = b;
+    } else if (isArray(geo) === true) {
       lat = geo[0];
       lng = geo[1];
     } else if (isString(geo) === true) {

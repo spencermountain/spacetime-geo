@@ -1,6 +1,6 @@
 {
   "name": "spacetime-geo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "determine a timezone from a lat/lng",
   "main": "./builds/spacetime-geo.js",
   "scripts": {
