@@ -17,8 +17,6 @@
 
 this is really just a wrapper of [tz-lookup](https://github.com/darkskyapp/tz-lookup/) by dark-sky - based on [Evan Siroky's](http://www.evansiroky.com/) awesome [boundary-builder](https://github.com/evansiroky/timezone-boundary-builder/) work.
 
-`123kb` (uncompressed)
-
 ```js
 const spacetime = require('./src/index')
 const geo = require('spacetime-geo')
@@ -37,7 +35,7 @@ s.time()
 //9:37pm
 ```
 
-in the browser:
+in the browser: `123kb` (uncompressed)
 ```html
 <script src="https://unpkg.com/spacetime"></script>
 <script src="https://unpkg.com/spacetime-geo"></script>

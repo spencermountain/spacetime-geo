@@ -1,4 +1,4 @@
-/* spacetime-geo v0.2.0
+/* spacetime-geo v1.0.0
    github.com/spencermountain/spacetime-geo
    MIT
 */
