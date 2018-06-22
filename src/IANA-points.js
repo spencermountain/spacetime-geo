@@ -501,39 +501,39 @@ module.exports = {
   "Pacific/Yap": '33.79,-118.19', //1939 Pacific Avenue, Long Beach, CA 90806, USA
 
   //these are pretty arbitrary and I made them up myself
-  "Etc/GMT": '', //
-  "Etc/GMT+0": '', //
-  "Etc/GMT+1": '', //
-  "Etc/GMT+10": '', //
-  "Etc/GMT+11": '', //
-  "Etc/GMT+12": '', //
-  "Etc/GMT+2": '', //
-  "Etc/GMT+3": '', //
-  "Etc/GMT+4": '', //
-  "Etc/GMT+5": '', //
-  "Etc/GMT+6": '', //
-  "Etc/GMT+7": '', //
-  "Etc/GMT+8": '', //
-  "Etc/GMT+9": '', //
-  "Etc/GMT-0": '', //
-  "Etc/GMT-1": '', //
-  "Etc/GMT-10": '', //
-  "Etc/GMT-11": '', //
-  "Etc/GMT-12": '', //
-  "Etc/GMT-13": '', //
-  "Etc/GMT-14": '', //
-  "Etc/GMT-2": '', //
-  "Etc/GMT-3": '', //
-  "Etc/GMT-4": '', //
-  "Etc/GMT-5": '', //
-  "Etc/GMT-6": '', //
-  "Etc/GMT-7": '', //
-  "Etc/GMT-8": '', //
-  "Etc/GMT-9": '', //
-  "Etc/GMT0": '', //
-  "Etc/Greenwich": '', //
-  "Etc/UCT": '', //
-  "Etc/UTC": '', //
-  "Etc/Universal": '', //
-  "Etc/Zulu": '', //
+  "Etc/GMT": '51.5076,-0.1276', //London
+  "Etc/GMT+0": '51.5076,-0.1276', //London
+  "Etc/GMT-0": '51.5076,-0.1276', //London
+  "Etc/GMT+1": '48.8589,2.3469', //Paris
+  "Etc/GMT+2": '47.4816,19.1300', //budapest
+  "Etc/GMT+3": '33.3156,44.3867', //baghdad
+  "Etc/GMT+4": '25.0749,55.4595', //dubai
+  "Etc/GMT+5": '33.6940,73.0652', //islamabad
+  "Etc/GMT+6": '23.7595,90.3788', //dhaka
+  "Etc/GMT+7": '13.5862,100.6332', //bangkok
+  "Etc/GMT+8": '39.9061,116.3912', //beijing
+  "Etc/GMT+9": '28.345,145.030', //tokyo
+  "Etc/GMT+10": '-27.3396,153.0881', //brisbane
+  "Etc/GMT+11": '6.9248,158.1611', //palakir
+  "Etc/GMT+12": '-36.8470,174.7727', //aukland
+  "Etc/GMT-1": '14.6935,-17.4479', //dakar
+  "Etc/GMT-2": '64.1755,-51.7355', //nuuk
+  "Etc/GMT-3": '-22.662,-48.635', //Sao Paulo
+  "Etc/GMT-4": '10.5061,-66.9146', //caracas
+  "Etc/GMT-5": '4.5981,-74.0761', //bogota
+  "Etc/GMT-6": '13.6990,-89.1914', //san salvador
+  "Etc/GMT-7": '33.41329,-112.00902', //pheonix AZ
+  "Etc/GMT-8": '61.2167,-149.8949', //anchorage (way off)
+  "Etc/GMT-9": '-25.0667,-130.1002', //adamstown (not technically in -9)
+  "Etc/GMT-10": '-17.5571,-149.5554', //papeete
+  "Etc/GMT-11": '-19.0531,-169.8958', //alofi
+  "Etc/GMT-12": '0.1954,-176.4786', //baker island
+  "Etc/GMT-13": '6.9248,158.1611', //palakir (+11)
+  "Etc/GMT-14": '-27.3396,153.0881', //brisbane (+10)
+  "Etc/GMT0": '51.5076,-0.1276', //London
+  "Etc/Greenwich": '51.5076,-0.1276', //London
+  "Etc/UCT": '51.5076,-0.1276', //London
+  "Etc/UTC": '51.5076,-0.1276', //London
+  "Etc/Universal": '51.5076,-0.1276', //London
+  "Etc/Zulu": '51.5076,-0.1276', //London
 }
