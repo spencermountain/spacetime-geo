@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://cloud.githubusercontent.com/assets/399657/23590290/ede73772-01aa-11e7-8915-181ef21027bc.png" />
-  <div>lat/long → timezone</div>
+  <div>lat/long ←→ timezone</div>
   <a href="https://npmjs.org/package/spacetime-geo">
     <img src="https://img.shields.io/npm/v/spacetime-geo.svg?style=flat-square" />
   </a>
@@ -13,9 +13,11 @@
   <code>npm install spacetime-geo</code>
 </div>
 
-[spacetime](https://github.com/spencermountain/spacetime) plugin for determining a timezone based on a point on the earth.
+[spacetime](https://github.com/spencermountain/spacetime) plugin for determining a timezone based on a point on the earth, and vice-versa.
 
 this is really just a wrapper of [tz-lookup](https://github.com/darkskyapp/tz-lookup/) by dark-sky - based on [Evan Siroky's](http://www.evansiroky.com/) awesome [boundary-builder](https://github.com/evansiroky/timezone-boundary-builder/) work.
+
+I made-up an [arbitrary point for each IANA timezone]()
 
 ```js
 const spacetime = require('./src/index')
@@ -25,6 +27,9 @@ spacetime.extend(geo)
 
 //set a specific time somewhere
 let s = spacetime('June 4 2018', 'Canada/Eastern').time('3:37pm')
+
+s.point()
+//{ lat: 43.65, lng: -79.38 }
 
 //go to a specific point (near paris)
 s.in([48.7235, 1.9931])
