@@ -17,8 +17,6 @@
 
 this is really just a wrapper of [tz-lookup](https://github.com/darkskyapp/tz-lookup/) by dark-sky - based on [Evan Siroky's](http://www.evansiroky.com/) awesome [boundary-builder](https://github.com/evansiroky/timezone-boundary-builder/) work.
 
-I made-up an [arbitrary point for each IANA timezone]()
-
 ```js
 const spacetime = require('./src/index')
 const geo = require('spacetime-geo')
@@ -28,6 +26,7 @@ spacetime.extend(geo)
 //set a specific time somewhere
 let s = spacetime('June 4 2018', 'Canada/Eastern').time('3:37pm')
 
+//where is this timezone? (approx)
 s.point()
 //{ lat: 43.65, lng: -79.38 }
 
@@ -60,10 +59,14 @@ spacetime.now().in('48.7235, 1.9931')
 ```
 
 ### Caveats:
+#### **.in()**
 [timezone boundaries](https://github.com/evansiroky/timezone-boundary-builder/) are very, very detailed things. In order to keep this library small, we've [simplified](http://mourner.github.io/simplify-js/) the paths. This may produce some off-by-one errors, close to the boundaries, especially for jagged coasts, or complex political boundaries.
 
 ![1091](https://user-images.githubusercontent.com/399657/41735400-9279263a-7557-11e8-9c57-6f993e410e00.png)
 
 You can always produce a more-detailed, and larger (<=130mb!) dataset using Evan Siroky's [script](https://github.com/evansiroky/timezone-boundary-builder/).
+
+#### **.point()**
+I made-up an [arbitrary point for each IANA timezone](https://github.com/spencermountain/spacetime-geo/blob/master/src/point/IANA-points.js) using the most-populous city in each timezone, and not any fancy [centroid-math](https://en.wikipedia.org/wiki/Centroid). This is all pretty-subjective stuff, especially for timezones like `Etc/GMT-9`. It should be fine for like, pointing a globe at a timezone, but don't use this lib for air-strikes, or hurricane-relief.
 
 MIT
