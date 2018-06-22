@@ -427,7 +427,7 @@ module.exports = {
   "America/Buenos_Aires": '-34.6,-58.38', //Buenos Aires, Argentina
   "America/Catamarca": '-28.47,-65.79', //Catamarca Province, Argentina
   "America/Coral_Harbour": '64.14,-83.17', //Coral Harbour, NU, Canada
-  "America/Cordoba": '37.89,-4.78', //Córdoba, Spain
+  "America/Cordoba": '-31.42,-64.18', //Córdoba, Argentina
   "America/Ensenada": '31.87,-116.6', //Ensenada, Baja California, Mexico
   "America/Fort_Wayne": '41.08,-85.14', //Fort Wayne, IN, USA
   "America/Indiana": '40.27,-86.13', //Indiana, USA
