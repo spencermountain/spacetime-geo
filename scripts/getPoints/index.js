@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 let iana = require('./iana')
-const fs = require('fs');
+// const fs = require('fs');
 let key = 'get-your-own'
 
 let done = {}

@@ -418,4 +418,122 @@ module.exports = {
   "Pacific/Fakaofo": '-8.53,-172.52', //Atafu Village, Tokelau
   "Pacific/Tongatapu": '-21.14,-175.2', //Nuku'alofa, Tonga
   "Pacific/Kiritimati": '1.87,-157.43', //Kiritimati, Kiribati
+
+  //extra ones
+  "Africa/Asmera": '15.32,38.93', //Asmara, Eritrea
+  "Africa/Timbuktu": '16.77,-3', //Timbuktu, Mali
+  "America/Argentina": '-38.42,-63.62', //Argentina
+  "America/Atka": '52.2,-174.2', //Atka, AK, USA
+  "America/Buenos_Aires": '-34.6,-58.38', //Buenos Aires, Argentina
+  "America/Catamarca": '-28.47,-65.79', //Catamarca Province, Argentina
+  "America/Coral_Harbour": '64.14,-83.17', //Coral Harbour, NU, Canada
+  "America/Cordoba": '37.89,-4.78', //Córdoba, Spain
+  "America/Ensenada": '31.87,-116.6', //Ensenada, Baja California, Mexico
+  "America/Fort_Wayne": '41.08,-85.14', //Fort Wayne, IN, USA
+  "America/Indiana": '40.27,-86.13', //Indiana, USA
+  "America/Indianapolis": '39.77,-86.16', //Indianapolis, IN, USA
+  "America/Jujuy": '-24.18,-65.3', //Jujuy, Argentina
+  "America/Kentucky": '37.84,-84.27', //Kentucky, USA
+  "America/Knox_IN": '37.92,-85.96', //Fort Knox, KY 40121, USA
+  "America/Louisville": '38.25,-85.76', //Louisville, KY, USA
+  "America/Mendoza": '-32.89,-68.85', //Mendoza, Capital Department, Mendoza Province, Argentina
+  "America/Montreal": '45.5,-73.57', //Montreal, QC, Canada
+  "America/North_Dakota": '47.55,-101', //North Dakota, USA
+  "America/Porto_Acre": '-9.59,-67.54', //Porto Acre - State of Acre, 69921-000, Brazil
+  "America/Rosario": '48.64,-122.87', //1400 Rosario Rd, Eastsound, WA 98245, USA
+  "America/Santa_Isabel": '32.63,-115.58', //Santa Isabel, Baja California, Mexico
+  "America/Shiprock": '36.79,-108.69', //Shiprock, NM, USA
+  "America/Virgin": '10.6573,-61.5180', //Port of Spain
+  "Antarctica/South_Pole": '-72.29,0.7', //Antarctica
+  "Asia/Ashkhabad": '37.96,58.33', //Ashgabat, Turkmenistan
+  "Asia/Calcutta": '22.57,88.36', //Kolkata, West Bengal, India
+  "Asia/Chongqing": '29.43,106.91', //Chongqing, China
+  "Asia/Chungking": '29.43,106.91', //Chongqing, China
+  "Asia/Dacca": '23.81,90.41', //Dhaka, Bangladesh
+  "Asia/Harbin": '45.8,126.53', //Harbin, Heilongjiang, China
+  "Asia/Istanbul": '41.01,28.98', //Istanbul, Turkey
+  "Asia/Kashgar": '39.47,75.99', //Kaxgar, Kashgar, Xinjiang, China
+  "Asia/Katmandu": '27.72,85.32', //Kathmandu 44600, Nepal
+  "Asia/Macao": '22.2,113.54', //Macau
+  "Asia/Saigon": '10.82,106.63', //Ho Chi Minh City, Vietnam
+  "Asia/Tel_Aviv": '32.09,34.78', //Tel Aviv-Yafo, Israel
+  "Asia/Thimbu": '27.47,89.64', //Thimphu, Bhutan
+  "Asia/Ujung_Pandang": '-5.15,119.43', //Makassar, Makassar City, South Sulawesi, Indonesia
+  "Asia/Ulan_Bator": '47.89,106.91', //Ulaanbaatar, Mongolia
+  "Atlantic/Faeroe": '62,-7', //Faroe Islands
+  "Atlantic/Jan_Mayen": '71.03,-8.29', //Jan Mayen, Svalbard and Jan Mayen
+  "Australia/ACT": '-35.28,149.13', //Canberra ACT 2601, Australia
+  "Australia/Canberra": '-35.28,149.13', //Canberra ACT 2601, Australia
+  "Australia/LHI": '-31.56,159.08', //Lord Howe Island, New South Wales, Australia
+  "Australia/NSW": '-31.25,146.92', //New South Wales, Australia
+  "Australia/North": '-12.46,130.85', //Darwin NT, Australia
+  "Australia/Queensland": '-20.92,142.7', //Queensland, Australia
+  "Australia/South": '-30,136.21', //South Australia, Australia
+  "Australia/Tasmania": '-41.45,145.97', //Tasmania, Australia
+  "Australia/Victoria": '-37.47,144.79', //Victoria, Australia
+  "Australia/West": '-31.95,115.86', //Perth WA, Australia
+  "Australia/Yancowinna": '-31.7,141.6', //Yancowinna, Australia
+  "Brazil/Acre": '-9.02,-70.81', //State of Acre, Brazil
+  "Brazil/DeNoronha": '-3.84,-32.43', //Fernando de Noronha, State of Pernambuco, 53990-000, Brazil
+  "Brazil/East": '-22.662,-48.635', //Sao Paulo
+  "Brazil/West": '-2.573,-59.981', //Central-West Region, Brazil
+  "Canada/Atlantic": '44.65,-63.58', //Halifax Regional Municipality, NS, Canada
+  "Canada/Central": '50.45,-104.62', //Regina, SK, Canada
+  "Canada/East-Saskatchewan": '52.94,-106.45', //Saskatchewan, Canada
+  "Canada/Eastern": '43.65,-79.38', //Toronto, ON, Canada
+  "Canada/Mountain": '51.05,-114.07', //Calgary, AB, Canada
+  "Canada/Newfoundland": '53.14,-57.66', //Newfoundland and Labrador, Canada
+  "Canada/Pacific": '49.28,-123.12', //Vancouver, BC, Canada
+  "Canada/Saskatchewan": '52.94,-106.45', //Saskatchewan, Canada
+  "Canada/Yukon": '64.28,-135', //Yukon Territory, Canada
+  "Chile/Continental": '-33.45,-70.67', //Santiago, Santiago Metropolitan Region, Chile
+  "Chile/EasterIsland": '-27.11,-109.35', //Easter Island, Valparaiso Region, Chile
+  "Europe/Belfast": '54.6,-5.93', //Belfast, UK
+  "Europe/Busingen": '47.7,8.69', //78266 Büsingen am Hochrhein, Germany
+  "Europe/Nicosia": '35.19,33.38', //Nicosia, Cyprus
+  "Europe/Tiraspol": '46.85,29.6', //Tiraspol, Moldova
+  "Mexico/BajaNorte": '30.84,-115.28', //Baja California, Mexico
+  "Mexico/BajaSur": '26.04,-111.67', //Baja California Sur, Mexico
+  "Mexico/General": '18.51,-96.47', //General, Tetela, Oax., Mexico
+  "Pacific/Ponape": '6.97,158.2', //Kolonia, Pohnpei 96941, Federated States of Micronesia
+  "Pacific/Samoa": '-13.76,-172.1', //Samoa
+  "Pacific/Truk": '7.45,151.75', //Chuuk Lagoon, Federated States of Micronesia
+  "Pacific/Yap": '33.79,-118.19', //1939 Pacific Avenue, Long Beach, CA 90806, USA
+
+  //these are pretty arbitrary and I made them up myself
+  "Etc/GMT": '', //
+  "Etc/GMT+0": '', //
+  "Etc/GMT+1": '', //
+  "Etc/GMT+10": '', //
+  "Etc/GMT+11": '', //
+  "Etc/GMT+12": '', //
+  "Etc/GMT+2": '', //
+  "Etc/GMT+3": '', //
+  "Etc/GMT+4": '', //
+  "Etc/GMT+5": '', //
+  "Etc/GMT+6": '', //
+  "Etc/GMT+7": '', //
+  "Etc/GMT+8": '', //
+  "Etc/GMT+9": '', //
+  "Etc/GMT-0": '', //
+  "Etc/GMT-1": '', //
+  "Etc/GMT-10": '', //
+  "Etc/GMT-11": '', //
+  "Etc/GMT-12": '', //
+  "Etc/GMT-13": '', //
+  "Etc/GMT-14": '', //
+  "Etc/GMT-2": '', //
+  "Etc/GMT-3": '', //
+  "Etc/GMT-4": '', //
+  "Etc/GMT-5": '', //
+  "Etc/GMT-6": '', //
+  "Etc/GMT-7": '', //
+  "Etc/GMT-8": '', //
+  "Etc/GMT-9": '', //
+  "Etc/GMT0": '', //
+  "Etc/Greenwich": '', //
+  "Etc/UCT": '', //
+  "Etc/UTC": '', //
+  "Etc/Universal": '', //
+  "Etc/Zulu": '', //
 }
