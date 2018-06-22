@@ -68,4 +68,7 @@ You can always produce a more-detailed, and larger (<=130mb!) dataset using Evan
 ### Caveats - **.point()**
 I made-up an [arbitrary point for each IANA timezone](https://github.com/spencermountain/spacetime-geo/blob/master/src/point/IANA-points.js) using the most-populous city in each timezone, and not any fancy [centroid-math](https://en.wikipedia.org/wiki/Centroid). This is all pretty-subjective stuff, especially for timezones like `Etc/GMT-9`. It should be fine for, centering a map, but probably not for doing air-strikes.
 
+### See also
+* [spacetime-daylight](https://github.com/spencermountain/spacetime-daylight)
+
 MIT
