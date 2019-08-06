@@ -1,20 +1,20 @@
-var tzlookup = require("tz-lookup");
+var tzlookup = require('tz-lookup')
 
 //.trim() pollyfill
 if (!String.prototype.trim) {
-  var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+  var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g
   String.prototype.trim = function() {
-    return this.replace(rtrim, '');
-  };
+    return this.replace(rtrim, '')
+  }
 }
 var isArray = function(hmm) {
-  return Object.prototype.toString.call(hmm) === '[object Array]';
+  return Object.prototype.toString.call(hmm) === '[object Array]'
 }
 var isString = function(hmm) {
   return typeof hmm === 'string'
 }
 function isObject(hmm) {
-  return hmm instanceof Object && hmm.constructor === Object;
+  return hmm instanceof Object && hmm.constructor === Object
 }
 
 const findTz = function(geo, b) {

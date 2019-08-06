@@ -39,7 +39,7 @@ s.time()
 //9:37pm
 ```
 
-in the browser: `123kb` (uncompressed)
+in the browser: `111kb` (uncompressed)
 ```html
 <script src="https://unpkg.com/spacetime"></script>
 <script src="https://unpkg.com/spacetime-geo"></script>
